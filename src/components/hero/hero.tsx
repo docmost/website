@@ -13,8 +13,10 @@ export function Hero() {
 
           <Container p={0} size={600}>
             <Text size="lg" c="dimmed" className={classes.description}>
-              Create, collaborate, and share knowledge seamlessly with Docmost. <br />
-              Ideal for managing your wiki, knowledge-base, documentation and a lot more.
+              Create, collaborate, and share knowledge seamlessly with Docmost.{" "}
+              <br />
+              Ideal for managing your wiki, knowledge-base, documentation and a
+              lot more.
             </Text>
           </Container>
 

@@ -63,6 +63,7 @@ export function Shell({ children }: ShellProps) {
                 <UnstyledButton
                   component="a"
                   href="/docs"
+                  target="_blank"
                   className={classes.control}
                 >
                   Docs
@@ -71,6 +72,7 @@ export function Shell({ children }: ShellProps) {
                   className={classes.control}
                   component="a"
                   href={AppLink.Github}
+                  target="_blank"
                 >
                   Github
                 </UnstyledButton>
@@ -78,6 +80,7 @@ export function Shell({ children }: ShellProps) {
                   className={classes.control}
                   component="a"
                   href="/blog"
+                  target="_blank"
                 >
                   Blog
                 </UnstyledButton>
@@ -106,17 +109,28 @@ export function Shell({ children }: ShellProps) {
         >
           Features
         </UnstyledButton>
-        <UnstyledButton component="a" href="/docs" className={classes.control}>
+        <UnstyledButton
+          component="a"
+          href="/docs"
+          target="_blank"
+          className={classes.control}
+        >
           Docs
         </UnstyledButton>
         <UnstyledButton
           className={classes.control}
           component="a"
           href={AppLink.Github}
+          target="_blank"
         >
           Github
         </UnstyledButton>
-        <UnstyledButton className={classes.control} component="a" href="/blog">
+        <UnstyledButton
+          className={classes.control}
+          component="a"
+          href="/blog"
+          target="_blank"
+        >
           Blog
         </UnstyledButton>
 
