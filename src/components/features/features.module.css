@@ -50,6 +50,13 @@
   @mixin light {
     background-color: var(--mantine-color-gray-6);
   }
+  &[data-active] {
+    @mixin light {
+      width: 40px;
+      background-color: var(--mantine-color-gray-0);;
+      outline: 1px solid var(--mantine-color-gray-6);
+    }
+  }
 }
 
 .carouselWrapper {

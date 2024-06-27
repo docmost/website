@@ -12,6 +12,7 @@ const images = [
   { url: "/screenshots/slash-command.png", title: "Editor slash command" },
   { url: "/screenshots/page-history.png", title: "Page history" },
   { url: "/screenshots/search.png", title: "Search" },
+  { url: "/screenshots/space-list.png", title: "Space list" },
   { url: "/screenshots/space-permissions.png", title: "Space permissions" },
   { url: "/screenshots/space-overview.png", title: "Space overview" },
   { url: "/screenshots/member-list.png", title: "Workspace member list" },
@@ -28,6 +29,7 @@ export function ScreenshotCarousel() {
         className={classes.carouselImage}
         src={image.url}
         alt={image.title}
+        h={200}
         onClick={() => {
           setSelectedImage(image.url);
           setSelectedTitle(image.title);

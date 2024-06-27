@@ -7,8 +7,7 @@ import React from "react";
 import { theme } from "./theme";
 
 export const metadata: Metadata = {
-  title:
-    "Open-source collaborative wiki and documentation software | Docmost",
+  title: "Open-source collaborative wiki and documentation software | Docmost",
   description:
     "Docmost is an open-source collaborative wiki and documentation software",
 };
