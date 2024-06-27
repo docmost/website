@@ -8,9 +8,9 @@ import { theme } from "./theme";
 
 export const metadata: Metadata = {
   title:
-    "Docmost - An open-source collaborative wiki and documentation platform",
+    "Open-source collaborative wiki and documentation software | Docmost",
   description:
-    "Docmost is an open-source collaborative wiki and documentation platform",
+    "Docmost is an open-source collaborative wiki and documentation software",
 };
 
 export default function RootLayout({
