@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import React from "react";
 import { theme } from "./theme";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Open-source collaborative wiki and documentation software | Docmost",
@@ -28,6 +29,7 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider theme={theme}>{children}</MantineProvider>
+        <GoogleAnalytics gaId="G-15RC5C8G8H" />
       </body>
     </html>
   );
