@@ -38,9 +38,9 @@ export function Hero() {
               size="lg"
               component="a"
               target="_blank"
-              href={AppLink.Demo}
+              href={AppLink.Documentation + "/installation"}
             >
-              Live demo
+              Installation Guide
             </Button>
           </div>
         </div>
