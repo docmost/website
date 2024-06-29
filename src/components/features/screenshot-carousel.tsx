@@ -41,11 +41,10 @@ export function ScreenshotCarousel() {
   ));
 
   return (
-    <div className={classes.carouselWrapper}>
+    <div className={classes.carouselWrapper} id="screenshots">
       <Title order={2} className={classes.title}>
         Screenshots
       </Title>
-
       <Carousel
         classNames={{ indicator: classes.carouselIndicator }}
         withIndicators

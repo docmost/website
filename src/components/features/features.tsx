@@ -81,7 +81,9 @@ export function Features() {
   return (
     <div>
       <Container className={classes.wrapper} id="features">
-        <Title className={classes.title}>Features</Title>
+        <Title order={2} className={classes.title}>
+          Features
+        </Title>
 
         {/*
             <Container size={560} p={0}>

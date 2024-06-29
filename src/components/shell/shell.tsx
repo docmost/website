@@ -60,6 +60,15 @@ export function Shell({ children }: ShellProps) {
                 >
                   Features
                 </UnstyledButton>
+
+                <UnstyledButton
+                  component="a"
+                  href="#screenshots"
+                  className={classes.control}
+                >
+                  Screenshots
+                </UnstyledButton>
+
                 <UnstyledButton
                   component="a"
                   href="/docs"
@@ -108,6 +117,13 @@ export function Shell({ children }: ShellProps) {
           className={classes.control}
         >
           Features
+        </UnstyledButton>
+        <UnstyledButton
+          component="a"
+          href="#screenshots"
+          className={classes.control}
+        >
+          Screenshots
         </UnstyledButton>
         <UnstyledButton
           component="a"
