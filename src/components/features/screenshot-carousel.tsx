@@ -58,6 +58,7 @@ export function ScreenshotCarousel() {
         {slides}
       </Carousel>
       <Modal
+        removeScrollProps={{ allowPinchZoom: true }}
         opened={opened}
         onClose={() => setOpened(false)}
         title={selectedTitle}
