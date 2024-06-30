@@ -21,7 +21,7 @@ interface ShellProps {
 }
 
 export function Shell({ children }: ShellProps) {
-  const [opened, { toggle }] = useDisclosure();
+  const [opened, { toggle, close }] = useDisclosure();
 
   return (
     <AppShell
@@ -112,6 +112,7 @@ export function Shell({ children }: ShellProps) {
           Home
         </UnstyledButton>
         <UnstyledButton
+          onClick={close}
           component="a"
           href="#features"
           className={classes.control}
@@ -119,6 +120,7 @@ export function Shell({ children }: ShellProps) {
           Features
         </UnstyledButton>
         <UnstyledButton
+          onClick={close}
           component="a"
           href="#screenshots"
           className={classes.control}
@@ -126,6 +128,7 @@ export function Shell({ children }: ShellProps) {
           Screenshots
         </UnstyledButton>
         <UnstyledButton
+          onClick={close}
           component="a"
           href="/docs"
           target="_blank"
@@ -134,6 +137,7 @@ export function Shell({ children }: ShellProps) {
           Docs
         </UnstyledButton>
         <UnstyledButton
+          onClick={close}
           className={classes.control}
           component="a"
           href={AppLink.Github}
@@ -142,6 +146,7 @@ export function Shell({ children }: ShellProps) {
           Github
         </UnstyledButton>
         <UnstyledButton
+          onClick={close}
           className={classes.control}
           component="a"
           href="/blog"
