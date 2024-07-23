@@ -83,7 +83,7 @@ export function Shell({ children }: ShellProps) {
                   href={AppLink.Github}
                   target="_blank"
                 >
-                  Github
+                  GitHub
                 </UnstyledButton>
                 <UnstyledButton
                   className={classes.control}
@@ -143,7 +143,7 @@ export function Shell({ children }: ShellProps) {
           href={AppLink.Github}
           target="_blank"
         >
-          Github
+          GitHub
         </UnstyledButton>
         <UnstyledButton
           onClick={close}

@@ -30,7 +30,7 @@ export function Hero() {
               target="_blank"
               href={AppLink.Github}
             >
-              Github
+              GitHub
             </Button>
             <Button
               variant="subtle"
