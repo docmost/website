@@ -4,7 +4,7 @@ import classes from "./footer.module.css";
 import { AppLink } from "@/libs/config";
 
 const links = [
-  { link: AppLink.Github, label: "Github" },
+  { link: AppLink.Github, label: "GitHub" },
 
   { link: "/docs", label: "Documentation" },
   { link: AppLink.Blog, label: "Blog" },
