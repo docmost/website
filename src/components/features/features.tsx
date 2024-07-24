@@ -56,7 +56,7 @@ export const featureItems = [
     icon: IconSearch,
     title: "Search",
     description:
-      "The search is powered by Postgres full-text search which system allows you to quickly locate the information you need across all pages.",
+      "The search is powered by Postgres full-text search system which allows you to quickly locate the information you need across all pages.",
   },
   {
     icon: IconFileStack,
