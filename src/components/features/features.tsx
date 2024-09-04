@@ -1,6 +1,5 @@
-import { Text, Title, Container, SimpleGrid, rem } from "@mantine/core";
+import { Title, Container, SimpleGrid, rem } from "@mantine/core";
 import {
-  IconGauge,
   IconLock,
   IconMessage,
   IconUsersGroup,
@@ -20,7 +19,7 @@ export const featureItems = [
     icon: IconWifi,
     title: "Real-time collaborative rich-text editor",
     description:
-      "The editor allows multiple users to simultaneously edit pages in real-time. It has support for tables, math (LaTex), and callouts to name a few.",
+      "The editor allows multiple users to simultaneously edit pages in real-time. It has support for diagrams (mermaid, draw.io & excalidraw), tables, math (LaTex), and more",
   },
   {
     icon: IconLock,
