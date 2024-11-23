@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Carousel } from "@mantine/carousel";
-import { Container, Image, Modal, Text, Title } from "@mantine/core";
+import { Image, Title } from "@mantine/core";
 import classes from "./features.module.css";
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
