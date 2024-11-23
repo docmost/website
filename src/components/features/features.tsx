@@ -8,8 +8,8 @@ import {
   IconSpaces,
   IconWifi,
   IconFileStack,
-  IconPaperclip,
-} from "@tabler/icons-react";
+  IconPaperclip, IconShape3,
+} from '@tabler/icons-react';
 import { Feature } from "@/components/features/feature";
 import classes from "./features.module.css";
 import { ScreenshotCarousel } from "@/components/features/screenshot-carousel";
@@ -17,9 +17,15 @@ import { ScreenshotCarousel } from "@/components/features/screenshot-carousel";
 export const featureItems = [
   {
     icon: IconWifi,
-    title: "Real-time collaborative rich-text editor",
+    title: "Real-time collaborative editor",
     description:
-      "The editor allows multiple users to simultaneously edit pages in real-time. It has support for diagrams (mermaid, draw.io & excalidraw), tables, math (LaTex), and more",
+      "The rich-text editor allows users to simultaneously edit pages in real-time, with support for diagrams, tables, math (LaTex), embeds and more.",
+  },
+  {
+    icon: IconShape3,
+    title: "Diagrams",
+    description:
+      "Built-in editor support for Mermaid, Draw.io and Excalidraw diagramming tools.",
   },
   {
     icon: IconLock,
@@ -43,7 +49,7 @@ export const featureItems = [
     icon: IconMessage,
     title: "Comment system",
     description:
-      "Engage in meaningful discussions directly on your pages with the integrated inline commenting system.",
+      "Engage in meaningful discussions directly on your pages with the integrated inline commenting feature.",
   },
   {
     icon: IconHistory,
@@ -61,14 +67,14 @@ export const featureItems = [
     icon: IconFileStack,
     title: "Nested pages",
     description:
-      "Docmost supports nesting of pages to any level. You can reorder and manage your pages through simple drag-and-drop functionality directly from the sidebar.",
+      "Docmost supports nesting of pages to any level. You can reorder and manage your pages through simple drag-and-drop from the sidebar.",
   },
 
   {
     icon: IconPaperclip,
     title: "Attachments",
     description:
-      "Easily attach images and videos to your pages just by pasting from your clipboard. Docmost supports both S3 and local storage drivers.",
+      "Easily attach images and files to your pages just by selecting or pasting from your clipboard. Docmost supports both S3 and local storage drivers.",
   },
 ];
 
